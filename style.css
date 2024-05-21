@@ -39,10 +39,11 @@ body {
 }
 
 .logo {
-    height: 20%;
-    width: 20%;
-    margin-top: -5%; 
+ height: 10%;
+    width: 10%;
+    margin-top: -3%; 
     position: absolute;
+    
     
 }
 
