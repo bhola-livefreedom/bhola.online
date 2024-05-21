@@ -42,6 +42,11 @@ body {
     height: 30%;
     width: 30%;
 }
+.banneR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .banneR img{
     height: 70%;
