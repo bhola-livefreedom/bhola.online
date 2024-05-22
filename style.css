@@ -59,6 +59,8 @@ body {
     width: 15%;
 }
 
+
+
 .banneR {
     display: flex;
     justify-content: center;
@@ -389,7 +391,7 @@ img {
 }
 
 .hero__inner {
-    padding: 50px 0px 70px 0px;
+    padding: 50px 0px 70px 40px;
     overflow-x: clip;
     overflow-y: auto;
     background-size: auto;
@@ -708,7 +710,7 @@ img {
     }
 
     .hero__inner {
-        padding: 0;
+        padding: 0px 0px 70px 40px;
     }
 
     .neutral-row-gutter .column-gutter,
@@ -849,7 +851,7 @@ img {
         padding: 80px 0px;
     }
     .hero__inner {
-        padding: 0%;
+        padding: 0px 0px 70px 40px;
     }
 
 
@@ -908,7 +910,7 @@ img {
     }
 
     .hero__inner {
-        padding: 0%;
+        padding: 0px 0px 70px 40px;
     }
 
 
