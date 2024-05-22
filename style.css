@@ -836,6 +836,12 @@ img {
         height: 30%;
         width: 30%;
     }
+
+    .hero-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -887,6 +893,12 @@ img {
         width: 40%;
     }
 
+    .hero-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (max-width: 424px) {
@@ -905,6 +917,12 @@ img {
         width: 45%;
     }
 
+    .hero-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -914,6 +932,12 @@ img {
         -ms-flex-direction: column;
         flex-direction: column;
         gap: 20px;
+    }
+
+    .hero-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
