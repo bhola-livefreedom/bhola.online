@@ -672,12 +672,19 @@ img {
         width: 20%;
     }
 
+    .hero__inner {
+        padding: 0px 0px 70px 40px;
+    }
+
 
 }
 
 @media only screen and (max-width: 991px) {
 
 
+    .hero__inner {
+        padding: 0px 0px 70px 40px;
+    }
     
     .footer__copyright {
         margin-bottom: 26px;
@@ -940,6 +947,10 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .hero__inner {
+        padding: 0px 0px 70px 40px;
     }
 
 }
