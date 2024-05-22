@@ -41,10 +41,17 @@ body {
 
 .logo1 {
  padding-top: 10px;
- text-align: center;
+ padding-left: 10%;
+ /* text-align: center; */
     background-color: #0e223c;
   
     
+}
+
+.hero-button {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .logo1 img{
@@ -382,7 +389,7 @@ img {
 }
 
 .hero__inner {
-    padding: 200px 0px 70px 0px;
+    padding: 50px 0px 70px 0px;
     overflow-x: clip;
     overflow-y: auto;
     background-size: auto;
@@ -669,6 +676,7 @@ img {
 @media only screen and (max-width: 991px) {
 
 
+    
     .footer__copyright {
         margin-bottom: 26px;
     }
@@ -685,12 +693,22 @@ img {
         height: 30%;
         width: 30%;
     }
+
+    .hero-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     body {
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .hero__inner {
+        padding: 0;
     }
 
     .neutral-row-gutter .column-gutter,
@@ -824,6 +842,10 @@ img {
     .section-space {
         padding: 80px 0px;
     }
+    .hero__inner {
+        padding: 0%;
+    }
+
 
     .section-space-top {
         padding-top: 80px;
@@ -872,6 +894,11 @@ img {
     .hero__content__action {
         gap: 20px;
     }
+
+    .hero__inner {
+        padding: 0%;
+    }
+
 
     .logo1 img{
         height: 45%;
