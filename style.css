@@ -32,19 +32,24 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #0f223c;
+    
     background-color: #ffffff;
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
 }
 
-.logo {
- height: 10%;
-    width: 10%;
-    margin-top: -3%; 
-    position: absolute;
+.logo1 {
+ padding-top: 10px;
+ text-align: center;
+    background-color: #0e223c;
+  
     
-    
+}
+
+.logo1 img{
+    height: 10%;
+    width: 15%;
 }
 
 .banneR {
@@ -653,12 +658,9 @@ img {
         margin-bottom: 100px;
     }
 
-    .logo {
-        height: 30%;
-        width: 30%;
-        margin-top: -10%; 
-        position: absolute;
-        
+    .logo1 img{
+        height: 20%;
+        width: 20%;
     }
 
 
@@ -679,12 +681,9 @@ img {
         justify-content: center;
     }
 
-    .logo {
-        height: 40%;
-        width: 40%;
-        margin-top: -15%; 
-        position: absolute;
-        
+    .logo1 img{
+        height: 30%;
+        width: 30%;
     }
 }
 
@@ -815,12 +814,9 @@ img {
         max-width: 10%;
     }
 
-    .logo {
-        height: 40%;
-        width: 40%;
-        margin-top: -15%; 
-        position: absolute;
-        
+    .logo1 img{
+        height: 30%;
+        width: 30%;
     }
 }
 
@@ -864,12 +860,22 @@ img {
     }
 
 
+    .logo1 img{
+        height: 40%;
+        width: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 424px) {
 
     .hero__content__action {
         gap: 20px;
+    }
+
+    .logo1 img{
+        height: 45%;
+        width: 45%;
     }
 
 }
